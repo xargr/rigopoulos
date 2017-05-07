@@ -49,10 +49,16 @@ header{
     z-index: 2;
 }
 
-#info, #info a{
+#info{
     z-index: 3;
     font-family:'Comfortaa',cursive;
     margin-top: 20vh;
+    color: #fff;
+
+}
+
+#info a{
+    font-family:'Comfortaa',cursive;
     color: #fff;
 
 }
@@ -61,7 +67,18 @@ header{
     font-size: 3em;
 }
 
-#info span {
+.left{
+    float: left;
+}
+
+.left:after {
+    content: " ";
+    display: block;
+    height: 0;
+    width: 20px;
+}
+
+.name {
     font-size: 1.5em;
 }
 
@@ -69,4 +86,14 @@ header{
 .content{
 	min-height: 500px;
 	margin-top: 300px;
+}
+
+
+@media (max-width: 768px) {
+
+    #info{
+        width: 80vw;
+
+    }
+
 }
