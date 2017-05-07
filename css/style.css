@@ -78,7 +78,7 @@ header{
     width: 20px;
 }
 
-.name {
+#info span {
     font-size: 1.5em;
 }
 
@@ -94,6 +94,14 @@ header{
     #info{
         width: 80vw;
 
+    }
+
+    #info h1 {
+        font-size: 2em;
+    }
+
+    #info span {
+        font-size: 1.2em;
     }
 
 }
