@@ -24,6 +24,18 @@
     margin-right: 30px;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
 header{
 	background-image: url(../img/bg.jpg);
     height: 100vh;
