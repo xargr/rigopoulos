@@ -94,6 +94,18 @@ header{
     font-size: 1.5em;
 }
 
+.more {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.more a {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 9px;
+}
+
 
 .content{
 	min-height: 500px;
