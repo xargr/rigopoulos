@@ -94,15 +94,19 @@ header{
 }
 
 .more {
-    margin-top: 2em;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
 }
 
 .more a {
     border: 2px solid #fff;
-    padding: 5px 10px;
-    border-radius: 9px;
+    padding: 8px 26px;
+    font-size: 1.5em;
+}
+
+.more a:hover {
+    text-decoration: none;
 }
 
 
@@ -135,6 +139,10 @@ header{
 
     #info span {
         font-size: 1.2em;
+    }
+
+    .more {
+        margin-top: 15px;
     }
 
 }
