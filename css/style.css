@@ -43,7 +43,6 @@ header{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     z-index: 1;
     background-position: center center;
@@ -114,6 +113,20 @@ header{
 
 
 @media (max-width: 768px) {
+
+    header{
+        background: none;
+        height: 100vh;
+        width: auto;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
     #info{
         width: 80vw;
