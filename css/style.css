@@ -110,9 +110,62 @@ header{
 }
 
 
-.content{
-	min-height: 500px;
-	margin-top: 300px;
+.one{
+    margin-top: 100px;
+}
+.two{
+    margin-top: 50px;
+}
+.three{
+    margin-top: 280px;
+}
+
+.header-servises {
+    font-family: 'Comfortaa',cursive;
+    color: #555;
+    /*background-color: #f06326;*/
+    margin: 0 auto;
+    width: 8em;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 12px;
+}
+
+.servises{
+    margin: 30px auto;
+}
+
+
+.box1,.box2,.box3,.box4{
+    padding-top: 3em;
+    height: 200px;
+
+}
+
+.box1 a,.box2 a,.box3 a,.box4 a{
+    text-decoration: none;
+    font-family: 'Comfortaa',cursive;
+    color: #555;
+}
+
+.box1 p,.box2 p,.box3 p,.box4 p{
+    margin-top: 10px;
+}
+
+.box1 h3,.box2 h3,.box3 h3,.box4 h3{
+    text-align: center;
+}
+
+.piece1 h4{
+    font-family: 'Comfortaa',cursive;
+    color: #555;
+    font-size: 2em;
+}
+
+
+a.link-face{
+    text-decoration: none;
+    color: #222;
 }
 
 
@@ -143,6 +196,10 @@ header{
 
     .more {
         margin-top: 15px;
+    }
+
+    .box2,.box3,.box4{
+        margin-top: 6em;
     }
 
 }
