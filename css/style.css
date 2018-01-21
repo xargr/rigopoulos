@@ -168,6 +168,10 @@ a.link-face{
     color: #222;
 }
 
+.unborder > .list-group-item{
+    border: none;
+    font-style: italic;
+}
 
 @media (max-width: 768px) {
 
