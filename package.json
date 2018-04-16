@@ -23,7 +23,6 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
-    "start": "gulp",
     "build": "gulp build"
   },
   "devDependencies": {
