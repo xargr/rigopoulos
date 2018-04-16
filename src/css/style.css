@@ -1,5 +1,13 @@
 @import "https://fonts.googleapis.com/css?family=Comfortaa:700&subset=greek";
 
+#map {
+    height: 50vh;
+}
+
+a.gal>img {
+    padding-left: 10px;
+}
+
 .navbar-default {
     background-color: #3a7024;
     border: none;
