@@ -6,6 +6,11 @@
     border-radius: 0;
 }
 
+.navbar-brand>img {
+    height: 50px;
+    margin: -16px;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     font-family:'Comfortaa',cursive;
@@ -37,7 +42,7 @@
 }
 
 header{
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/gallery/big-bg.jpg); 
     height: 100vh;
     width: auto;
     background-size: cover;
