@@ -7,6 +7,10 @@
 a.gal>img {
     padding-left: 10px;
 }
+.container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
 .navbar-default {
     background-color: #3a7024;
