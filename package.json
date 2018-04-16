@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "bulma": "^0.6.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-version-number": "^0.1.7"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
