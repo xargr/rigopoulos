@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Comfortaa:700&subset=greek";
 
+#map {
+    height: 50vh;
+}
+
 .navbar-default {
     background-color: #3a7024;
     border: none;
